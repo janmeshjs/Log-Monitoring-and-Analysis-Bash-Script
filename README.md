@@ -1,6 +1,6 @@
 # Log Monitoring and Log Analysis Bash Script
 
-The `log-monitor.sh` script is designed to monitor a log file continuously for new entries and perform basic analysis on those entries. It provides functionalities such as counting occurrences of specific keywords or patterns and generating analysis reports.
+The `log-monitor.sh` script is designed to monitor a log file continuously for new entries and perform analysis on those entries in real-time. It provides functionalities such as counting the number of errors and warnings in the log file and generating analysis reports.
 
 ## Log Monitoring and analysis script 
 1. Ensure you have Bash installed on your system.
@@ -25,9 +25,14 @@ The `log-monitor.sh` script is designed to monitor a log file continuously for n
     ```
 8. The script will start monitoring the log file in real-time, displaying the last 10 lines and updating the analysis summary whenever new entries are detected.
 
-## Additional Features
-- Error handling: The script includes error handling to ensure it gracefully handles scenarios such as missing or unreadable log files.
-- Customizable: You can customize the script to analyze specific log patterns by modifying the grep commands and summary report generation logic.
+## Log Analysis
+The log analysis includes the following details
+
+=== Log Analysis Summary ===
+- Log file name:
+- Total Lines processed:
+- Total Errors:
+- Total Warnings:
 
 
 ## Test script 
