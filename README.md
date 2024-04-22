@@ -6,7 +6,7 @@ The `log-monitor.sh` script is designed to monitor a log file continuously for n
 1. Ensure you have Bash installed on your system.
 2. Clone the repository to your local machine using the following command:
    ```
-   git clone https://github.com/janmeshjs/Marketfeed.git
+   git clone [https://github.com/janmeshjs/Marketfeed.git](https://github.com/janmeshjs/Log-Monitoring-and-Analysis-Bash-Script.git)
    ```
 3. Make sure the log file you want to monitor exists.
 4. Update the `log_file` variable with the correct path to the `sample-log.txt` file in `log-monitor.sh`
